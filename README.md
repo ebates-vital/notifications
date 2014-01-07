@@ -3,19 +3,14 @@ Notifications - a jQuery extension to display various notifications
 
 It depends on these CSS classes:
 --------------------------------
-.absolute  
-.apotip  
-.fixed  
-.h-v-centered  
-.sortWaitBox  
-.dialog  
+.absolute, .apotip, .fixed, .h-v-centered, .sortWaitBox, .dialog  
   
 General Usage:
 --------------
 __$.showNotification(Content, Options, AbsoluteTo);__  
 Content - Text or HTML string.  
-Options - [optional] - options object - default - {classes: "fixed h-v-centered", css: {}, overlay: {use: true, opacity: 0.5}, action: function () {}, closeIn: 0, animation: 200}  
-AbsoluteTo - selector or jQuery object.  
+Options - [optional] - options object; default - {classes: "fixed h-v-centered", css: {}, overlay: {use: true, opacity: 0.5}, action: function () {}, closeIn: 0, animation: 200}  
+AbsoluteTo - [optional] selector or jQuery object; default - "body".  
   
 Examples:
 ---------
