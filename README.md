@@ -12,7 +12,7 @@ It depends on these CSS classes:
   
 General Usage:
 --------------
---$.showNotification(Content, Options, AbsoluteTo);--  
+__$.showNotification(Content, Options, AbsoluteTo);__  
 Content - Text or HTML string.  
 Options - [optional] - options object - default - {classes: "fixed h-v-centered", css: {}, overlay: {use: true, opacity: 0.5}, action: function () {}, closeIn: 0, animation: 200}  
 AbsoluteTo - selector or jQuery object.  
