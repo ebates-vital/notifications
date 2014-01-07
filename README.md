@@ -22,6 +22,6 @@ Examples:
  - Progress timer   - __$.showNotification("Loading... please wait!", ebates.PROGRESS);__
  - Tool tip         - __$.showNotification($(".apotip").html(), ebates.TOOLTIP, $(this).parent(".apofpo-link"));__
  - Centered overlay - __$.showNotification(Content, ebates.OVERLAY);__
- - custom           - __$.showNotification("Please enter your name", {classes: "absolute error", overlay:{use: false}, cloaseIn: 5000}, "#myForm input#name label");__
+ - Custom           - __$.showNotification("Please enter your name", {classes: "absolute error", overlay:{use: false}, cloaseIn: 5000}, "#myForm input#name label");__
 
 
